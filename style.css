@@ -7,7 +7,10 @@ body {
 section {
     padding-top: 80px;
 }
-
+nav{
+  background-color: rgb(27, 18, 93);
+  color: white;
+}
 .nav-link {
     font-size: 1.1em;
     transition: .15s ease-in-out;
@@ -18,9 +21,9 @@ section {
     color: white !important;
 }
 
-.bg-transparent {
+/* .bg-transparent {
     transition: .1s ease-in;
-}
+}  */
 
 #homepage {
     /* padding-bottom: 10px; */
@@ -62,23 +65,23 @@ section {
 #homepage .arrow {
   margin-top: 40px;
 }
-#about .card {
+#tentang .card {
   margin-top: -150px;
   background-color: rgb(205, 222, 255);
   box-shadow: 0 4px 10px 0 rgb(5, 0, 44);
 }
-#product {
+#produk {
     min-height: 100vh;
     background-color:  rgb(48, 34, 155);
     padding-bottom: 100px;
 }
-#about {
+#tentang {
   background-color:  rgb(48, 34, 155);
 }
-#product .card {
+#produk .card {
     transition: transform .5s ease;
 }
-#product .card:hover {
+#produk .card:hover {
     transform: scale(1.02);
   }
   .container2 {
@@ -129,10 +132,10 @@ section {
     color: black;
   }
 @media screen and (max-width: 769px){
-    .bg-transparent {
+    /* .bg-transparent {
         background: rgb(41, 28, 138) !important;
         box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
-    }
+    } */
     .nav {
         display: block;
     }
@@ -155,7 +158,7 @@ section {
 }
 
 @media screen and (min-width: 770px){
-    nav {
+    /* nav {
         height: 60px;
     }
     .nav-item {
@@ -168,5 +171,5 @@ section {
     .bg-transparent.scrolled {
         background: rgb(41, 28, 138) !important;
         box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
-    }
+    } */
 }
